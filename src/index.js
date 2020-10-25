@@ -2,12 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+//import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div>
+    <App name = "Hassaan Ahmad"/>
+    <br/>
+    <h3>List of Items:</h3>
+    <ul>
+      <li>Books</li>
+      <li>Pencils</li>
+      <li>School Bags</li>
+    </ul>
+    <br/>
+    <h3>List of Electronic Items:</h3>
+    <ol>
+      <li>Laptop</li>
+      <li>Cell Phone</li>
+      <li>Television {5+10}</li>
+    </ol>
+  </div>,
   document.getElementById('root')
 );
 
